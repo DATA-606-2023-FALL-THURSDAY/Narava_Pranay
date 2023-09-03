@@ -5,7 +5,7 @@
   - making progress continuously towards your goal.
   - Updating this document continuously along the way.
  
-## 0. Title and Author
+## 1. Title and Author
 
 - **Audio Analysis & Classification**
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
@@ -15,7 +15,7 @@
 - Link to your PowerPoint presentation file
 - Link to your  YouTube video 
     
-## 1. Background
+## 2. Background
 
 Provide the background information about the chosen topic.
 
@@ -23,7 +23,7 @@ Provide the background information about the chosen topic.
 - Why does it matter? 
 - What are your research questions?
 
-## 2. Data 
+## 3. Data 
 
 Describe the datasets you are using to answer your research questions.
 
@@ -39,7 +39,7 @@ Describe the datasets you are using to answer your research questions.
 - Which variable/column will be your target/label in your ML model?
 - Which variables/columns may selected as features/predictors for your ML models?
 
-## 3. Exploratory Data Analysis (EDA)
+## 4. Exploratory Data Analysis (EDA)
 
 - Perform data exploration using Jupyter Notebook
 - You would focus on the target variable and the selected features and drop all other columns.
@@ -56,7 +56,7 @@ Describe the datasets you are using to answer your research questions.
   - each row represent one observation (ideally one unique entity/subject).
   - each columm represents one unique property of that entity. 
 
-## 4. Model Training 
+## 5. Model Training 
 
 - What models you will be using for predictive analytics?
 - How will you train the models?
@@ -65,7 +65,7 @@ Describe the datasets you are using to answer your research questions.
   - The development environments (your laptop, Google CoLab, GitHub CodeSpaces, etc.)
 - How will you measure and compare the performance of the models?
 
-## 5. Application of the Trained Models
+## 6. Application of the Trained Models
 
 Develop a web app for people to interact with your trained models. Potential tools for web app development:
 
@@ -73,13 +73,13 @@ Develop a web app for people to interact with your trained models. Potential too
 - Dash
 - Flask
 
-## 6. Conclusion
+## 7. Conclusion
 
 - Summarize your work and its potetial application
 - Point out the limitations of your work
 - Lessons learned 
 - Talk about future research direction
 
-## 7. References 
+## 8. References 
 
 List articles, blogs, and websites that you have referenced or used in your project.
