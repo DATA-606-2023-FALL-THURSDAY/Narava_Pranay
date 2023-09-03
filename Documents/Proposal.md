@@ -38,21 +38,3 @@ The significance of emotions in human life cannot be overstated, as they play a 
 
 - Which variable/column will be your target/label in your ML model?    
   The **"Emotion"** column is the Target variable
-  
-
-## 3. Exploratory Data Analysis (EDA)
-
-
-
-## 4. Model Training 
-
-
-
-## 5. Application of the Trained Models
-
-
-
-## 6. Conclusion
-
-
-## 7. References 
