@@ -7,11 +7,11 @@
  
 ## 0. Title and Author
 
-- Project Title
+- **Audio Analysis & Classification**
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
-- Author 
-- Link to the author's GitHub profile
-- Link to the author's LinkedIn progile
+- Pranay manikanta Narava 
+- GitHub: https://github.com/NPranaya7?tab=repositories 
+- LinkedIn: https://www.linkedin.com/in/pranayamanikanta07/ 
 - Link to your PowerPoint presentation file
 - Link to your  YouTube video 
     
