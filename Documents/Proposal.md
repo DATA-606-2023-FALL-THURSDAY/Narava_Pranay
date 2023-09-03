@@ -1,7 +1,8 @@
 # <p align="center"> Speech Emotion Recognition (SER)</p>
 
-- Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
+## 1. Author
 - Pranay manikanta Narava 
+- Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - GitHub: https://github.com/NPranaya7?tab=repositories 
 - LinkedIn: https://www.linkedin.com/in/pranayamanikanta07/ 
 - Link to your PowerPoint presentation file
