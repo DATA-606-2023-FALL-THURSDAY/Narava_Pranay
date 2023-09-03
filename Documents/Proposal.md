@@ -37,7 +37,7 @@ The significance of emotions in human life cannot be overstated, as they play a 
   - **Actor** (01 to 24. Odd-numbered actors are male, even-numbered actors are female).
 
 - Which variable/column will be your target/label in your ML model?    
-  The "Emotion" column is the Target variable
+  The **"Emotion"** column is the Target variable
   
 
 ## 3. Exploratory Data Analysis (EDA)
