@@ -1,4 +1,4 @@
-# Speech Emotion Recognition (SER)
+# </p align = Center>Speech Emotion Recognition (SER)</p>
 
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - Pranay manikanta Narava 
