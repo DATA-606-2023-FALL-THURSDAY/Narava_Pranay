@@ -42,45 +42,17 @@ The significance of emotions in human life cannot be overstated, as they play a 
 
 ## 3. Exploratory Data Analysis (EDA)
 
-- Perform data exploration using Jupyter Notebook
-- You would focus on the target variable and the selected features and drop all other columns.
-- produce summary statistics of key variables
-- Create visualizations (I recommend using Plotly)
-- Find out if the data require cleansing:
-  - missing values?
-  - duplicate rows? 
-- Find out if the data require splitting, merging, pivoting, etc.
-- Find out if you need to bring in other data sources to augment your data.
-  - For example, population, socioeconomic data from Census may be helpful.
-- For textual data, you will pre-process (normalize, remove stopwords, tokenize) them before you can analyze them in predictive analysis/machine learning.
-- Make sure the resulting dataset need to be "tidy":
-  - each row represent one observation (ideally one unique entity/subject).
-  - each columm represents one unique property of that entity. 
+
 
 ## 4. Model Training 
 
-- What models you will be using for predictive analytics?
-- How will you train the models?
-  - Train vs test split (80/20, 70/30, etc.)
-  - Python packages to be used (scikit-learn, NLTK, spaCy, etc.)
-  - The development environments (your laptop, Google CoLab, GitHub CodeSpaces, etc.)
-- How will you measure and compare the performance of the models?
+
 
 ## 5. Application of the Trained Models
 
-Develop a web app for people to interact with your trained models. Potential tools for web app development:
 
-- Streamlit (recommended)
-- Dash
-- Flask
 
 ## 6. Conclusion
 
-- Summarize your work and its potetial application
-- Point out the limitations of your work
-- Lessons learned 
-- Talk about future research direction
 
 ## 7. References 
-
-List articles, blogs, and websites that you have referenced or used in your project.
