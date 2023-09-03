@@ -27,14 +27,14 @@ The significance of emotions in human life cannot be overstated, as they play a 
 - Data size: 590.35 MB
 - Data shape: 1440 (.wav) Audio files
 - **Filename identified as per the official RAVDESS website**
-  - **Example Filename:  03-01-01-01-01-01-01.wav**
-  - Modality (01 = full-AV, 02 = video-only, 03 = audio-only).
-  - Vocal channel (01 = speech, 02 = song).
-  - Emotion (01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised).
-  - Emotional intensity (01 = normal, 02 = strong). NOTE: There is no strong intensity for the 'neutral' emotion.
-  - Statement (01 = "Kids are talking by the door", 02 = "Dogs are sitting by the door").
-  - Repetition (01 = 1st repetition, 02 = 2nd repetition).
-  - Actor (01 to 24. Odd-numbered actors are male, even-numbered actors are female).
+  **Example Filename:  03-01-01-01-01-01-01.wav**
+  - **Modality** (01 = full-AV, 02 = video-only, 03 = audio-only).
+  - **Vocal channel** (01 = speech, 02 = song).
+  - **Emotion** (01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised).
+  - **Emotional intensity** (01 = normal, 02 = strong). NOTE: There is no strong intensity for the 'neutral' emotion.
+  - **Statement** (01 = "Kids are talking by the door", 02 = "Dogs are sitting by the door").
+  - **Repetition** (01 = 1st repetition, 02 = 2nd repetition).
+  - **Actor** (01 to 24. Odd-numbered actors are male, even-numbered actors are female).
 
 - Which variable/column will be your target/label in your ML model?
   The "Emotion" column is the Target variable
