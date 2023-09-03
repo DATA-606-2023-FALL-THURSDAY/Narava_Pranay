@@ -2,7 +2,7 @@
 
 - Author: Pranay manikanta Narava
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
-- GitHub: https://github.com/NPranaya7?tab=repositories 
+- GitHub: [https://github.com/NPranaya7?tab=repositories](https://github.com/DATA-606-2023-FALL-THURSDAY/Narava_Pranay) 
 - LinkedIn: https://www.linkedin.com/in/pranayamanikanta07/ 
 - Link to your PowerPoint presentation file
 - Link to your  YouTube video 
