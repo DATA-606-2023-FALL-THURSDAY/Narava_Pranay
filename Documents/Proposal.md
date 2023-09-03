@@ -20,7 +20,7 @@
 - What is it about?    
 I am excited to explore the fascinating topic of Speech Emotions Recognition. This field involves recognizing human emotions and affective states through speech patterns. It is based on the understanding that our voices often convey our underlying emotions through changes in tone, pitch, and other auditory elements. This phenomenon is not exclusive to humans, as animals like dogs and horses can also comprehend human emotions through our speech patterns. By delving into this subject, we can better understand the intricate nature of human communication and the interplay between our emotions and vocal expressions.
 
-- Why does it matter?
+- Why does it matter?    
 The significance of emotions in human life cannot be overstated, as they play a pivotal role in facilitating effective communication. Therefore, it would be highly beneficial to create a machine-learning model that can analyze speech and discern an individual's emotional state accurately. Such technology could have numerous practical applications, making it a valuable asset to society.
 
 - What are your research questions?
