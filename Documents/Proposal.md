@@ -25,15 +25,20 @@ The significance of emotions in human life cannot be overstated, as they play a 
 
 - Data sources: https://zenodo.org/record/1188976
 - Data size: 590.35 MB
-- Data shape: 24 Folders each Folder contains 60 Audio (.wav) files
-- **What does each row represent?(a patient, a school, a crime, etc.)**
-- Data dictionary
-  - Columns name
-  - Data type
-  - Definition
-  - Potential values (for categorical valuables, what are the categories?)
+- Data shape: 1440 (.wav) Audio files
+- **Filename identified as per the official RAVDESS website**
+  - **Example Filename:  03-01-01-01-01-01-01.wav**
+  - Modality (01 = full-AV, 02 = video-only, 03 = audio-only).
+  - Vocal channel (01 = speech, 02 = song).
+  - Emotion (01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised).
+  - Emotional intensity (01 = normal, 02 = strong). NOTE: There is no strong intensity for the 'neutral' emotion.
+  - Statement (01 = "Kids are talking by the door", 02 = "Dogs are sitting by the door").
+  - Repetition (01 = 1st repetition, 02 = 2nd repetition).
+  - Actor (01 to 24. Odd-numbered actors are male, even-numbered actors are female).
+
 - Which variable/column will be your target/label in your ML model?
-- Which variables/columns may selected as features/predictors for your ML models?
+  The "Emotion" column is the Target variable
+  
 
 ## 3. Exploratory Data Analysis (EDA)
 
