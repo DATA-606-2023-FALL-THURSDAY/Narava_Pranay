@@ -15,7 +15,7 @@ I am excited to explore the fascinating topic of Speech Emotions Recognition. Th
 - Why does it matter?    
 The significance of emotions in human life cannot be overstated, as they play a pivotal role in facilitating effective communication. Therefore, it would be highly beneficial to create a machine-learning model that can analyze speech and discern an individual's emotional state accurately. Such technology could have numerous practical applications, making it a valuable asset to society.
 
-- What are your research questions?
+- Research questions?
     - How accurately can we detect emotions and sentiments from voice recordings?
     - What are the cross-cultural differences in the perception of emotion in audio data?
     - Can emotion analysis from audio data be used in marketing or customer feedback analysis?
