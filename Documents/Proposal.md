@@ -7,7 +7,7 @@
 - Link to your PowerPoint presentation file
 - Link to your  YouTube video 
     
-## 2. Background
+## 1. Background
 
 - What is it about?    
 I am excited to explore the fascinating topic of Speech Emotions Recognition. This field involves recognizing human emotions and affective states through speech patterns. It is based on the understanding that our voices often convey our underlying emotions through changes in tone, pitch, and other auditory elements. This phenomenon is not exclusive to humans, as animals like dogs and horses can also comprehend human emotions through our speech patterns. By delving into this subject, we can better understand the intricate nature of human communication and the interplay between our emotions and vocal expressions.
@@ -16,9 +16,11 @@ I am excited to explore the fascinating topic of Speech Emotions Recognition. Th
 The significance of emotions in human life cannot be overstated, as they play a pivotal role in facilitating effective communication. Therefore, it would be highly beneficial to create a machine-learning model that can analyze speech and discern an individual's emotional state accurately. Such technology could have numerous practical applications, making it a valuable asset to society.
 
 - What are your research questions?
+    - How accurately can we detect emotions and sentiments from voice recordings?
+    - What are the cross-cultural differences in the perception of emotion in audio data?
+    - Can emotion analysis from audio data be used in marketing or customer feedback analysis?
 
-
-## 3. Data 
+## 2. Data 
 
 - Data sources: https://zenodo.org/record/1188976
 - Data size: 590.35 MB
@@ -32,7 +34,7 @@ The significance of emotions in human life cannot be overstated, as they play a 
 - Which variable/column will be your target/label in your ML model?
 - Which variables/columns may selected as features/predictors for your ML models?
 
-## 4. Exploratory Data Analysis (EDA)
+## 3. Exploratory Data Analysis (EDA)
 
 - Perform data exploration using Jupyter Notebook
 - You would focus on the target variable and the selected features and drop all other columns.
@@ -49,7 +51,7 @@ The significance of emotions in human life cannot be overstated, as they play a 
   - each row represent one observation (ideally one unique entity/subject).
   - each columm represents one unique property of that entity. 
 
-## 5. Model Training 
+## 4. Model Training 
 
 - What models you will be using for predictive analytics?
 - How will you train the models?
@@ -58,7 +60,7 @@ The significance of emotions in human life cannot be overstated, as they play a 
   - The development environments (your laptop, Google CoLab, GitHub CodeSpaces, etc.)
 - How will you measure and compare the performance of the models?
 
-## 6. Application of the Trained Models
+## 5. Application of the Trained Models
 
 Develop a web app for people to interact with your trained models. Potential tools for web app development:
 
@@ -66,13 +68,13 @@ Develop a web app for people to interact with your trained models. Potential too
 - Dash
 - Flask
 
-## 7. Conclusion
+## 6. Conclusion
 
 - Summarize your work and its potetial application
 - Point out the limitations of your work
 - Lessons learned 
 - Talk about future research direction
 
-## 8. References 
+## 7. References 
 
 List articles, blogs, and websites that you have referenced or used in your project.
