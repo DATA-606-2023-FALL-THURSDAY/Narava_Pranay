@@ -19,6 +19,7 @@ The significance of emotions in human life cannot be overstated, as they play a 
     - How accurately can we detect emotions and sentiments from voice recordings?
     - What are the cross-cultural differences in the perception of emotion in audio data?
     - Can emotion analysis from audio data be used in marketing or customer feedback analysis?
+    - How can audio data be used in forensic investigations, such as voice identification, and speaker emotion state recognition?
 
 ## 2. Data 
 
@@ -29,7 +30,7 @@ The significance of emotions in human life cannot be overstated, as they play a 
 - Data dictionary
   - Columns name
   - Data type
-  - Defition
+  - Definition
   - Potential values (for categorical valuables, what are the categories?)
 - Which variable/column will be your target/label in your ML model?
 - Which variables/columns may selected as features/predictors for your ML models?
