@@ -1,13 +1,5 @@
-# Structure and Requirements of Project Proposal and Final Report
+### **Speech Emotion Recognition (SER)**
 
-- This serves as a guide for developing a project proposal which will eventually become the final report.
-- You start with the end in mind and adopt an agile approach:
-  - making progress continuously towards your goal.
-  - Updating this document continuously along the way.
- 
-## 1. Title and Author
-
-- **Speech Emotion Recognition (SER)**
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - Pranay manikanta Narava 
 - GitHub: https://github.com/NPranaya7?tab=repositories 
@@ -25,13 +17,12 @@ The significance of emotions in human life cannot be overstated, as they play a 
 
 - What are your research questions?
 
+
 ## 3. Data 
 
-Describe the datasets you are using to answer your research questions.
-
-- Data sources
-- Data size (MB, GB, etc.)
-- Data shape (# of rows and # columns)
+- Data sources: https://zenodo.org/record/1188976
+- Data size: 590.35 MB
+- Data shape: 24 Folders each Folder contains 60 Audio (.wav) files
 - **What does each row represent?(a patient, a school, a crime, etc.)**
 - Data dictionary
   - Columns name
