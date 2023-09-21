@@ -27,6 +27,7 @@ The significance of emotions in human life cannot be overstated, as they play a 
 - Data sources: The data is found from the "Zenodo" open repository. It allows researchers to deposit research papers, data sets, research software, reports, and any other research-related digital artifacts. https://zenodo.org/record/1188976
 - Data size: 590.35 MB
 - Data shape: 1440 (.wav) Audio files
+- These 1440 Audio files are divided into 24 folders, each folder contains 60 Audio files. here folder represents the Actor
 - And these Audio file names contain the labels and other information about that Audio File. 
 - **Filename identified as per the official RAVDESS website**
   **Example Filename:  03-01-01-01-01-01-01.wav**
