@@ -28,6 +28,7 @@ The significance of emotions in human life cannot be overstated, as they play a 
 - Data size: 590.35 MB
 - Data shape: 1440 (.wav) Audio files
 - These 1440 Audio files are divided into 24 folders, each folder contains 60 Audio files. here folder represents the Actor
+- and Each Audio File Duration is 5 Seconds
 - And these Audio file names contain the labels and other information about that Audio File. 
 - **Filename identified as per the official RAVDESS website**
   **Example Filename:  03-01-01-01-01-01-01.wav**
