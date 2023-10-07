@@ -67,7 +67,9 @@ The significance of emotions in human life cannot be overstated, as they play a 
   - First, I created a bar plot showing the distribution of emotions in the dataset using Matplotlib and Seaborn.
   - I created a pie chart displaying the distribution of emotions using Plotly Express.
   - I also created pie charts for 'Emotional_intensity' and 'Statement' in a similar manner using Plotly Express.
-    
+
+![bar, pie](bar.png, pie.png)
+
 **F. Audio Visualizations**
   - Two functions, create_waveplot, and create_spectrogram, are defined to create waveplots and spectrograms for audio files.
   - It loads an audio file with the emotion such as 01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, and 08 = surprised. and displays its waveplot and spectrogram.
