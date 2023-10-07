@@ -1,5 +1,4 @@
 # <p align="center"> Speech Emotion Recognition (SER)</p>
-
 ## 1. Title and Author
 - Author: Pranay manikanta Narava
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
