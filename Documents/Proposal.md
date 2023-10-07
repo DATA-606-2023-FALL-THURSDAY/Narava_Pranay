@@ -1,5 +1,6 @@
 # <p align="center"> Speech Emotion Recognition (SER)</p>
 
+## 1. Title and Author
 - Author: Pranay manikanta Narava
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - GitHub: [https://github.com/NPranaya7?tab=repositories](https://github.com/DATA-606-2023-FALL-THURSDAY/Narava_Pranay) 
@@ -8,7 +9,7 @@
 - Link to your PowerPoint presentation file
 - Link to your  YouTube video 
     
-## 1. Background
+## 2. Background
 
 - What is it about?    
 I am excited to explore the fascinating topic of Speech Emotions Recognition. This field involves recognizing human emotions and affective states through speech patterns. It is based on the understanding that our voices often convey our underlying emotions through changes in tone, pitch, and other auditory elements. This phenomenon is not exclusive to humans, as animals like dogs and horses can also comprehend human emotions through our speech patterns. By delving into this subject, we can better understand the intricate nature of human communication and the interplay between our emotions and vocal expressions.
@@ -22,7 +23,7 @@ The significance of emotions in human life cannot be overstated, as they play a 
     - Can emotion analysis from audio data be used in marketing or customer feedback analysis?
     - How can audio data be used in forensic investigations, such as voice identification, and speaker emotion state recognition?
 
-## 2. Data 
+## 3. Data 
 
 - Data sources: The data is found from the "Zenodo" open repository. It allows researchers to deposit research papers, data sets, research software, reports, and any other research-related digital artifacts. https://zenodo.org/record/1188976
 - Data size: 590.35 MB
@@ -42,3 +43,6 @@ The significance of emotions in human life cannot be overstated, as they play a 
 
 - Which variable/column will be your target/label in your ML model?    
   The **"Emotion"** column is the Target variable
+  
+## 4. Exploratory Data Analysis (EDA)
+- 
