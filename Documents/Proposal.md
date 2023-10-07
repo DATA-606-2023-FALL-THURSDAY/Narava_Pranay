@@ -56,15 +56,18 @@ The significance of emotions in human life cannot be overstated, as they play a 
   - Extracted the filename without the extension (part_filename) and appended the full file path and the part_filename to the respective lists.
   - Two Pandas DataFrames are created emotion_df to store the part_filename_list as a column named 'Filename', and path_df to store the file_path as a column named 'Path'.
   - Then two DataFrames (path_df and emotion_df) are concatenated horizontally (along columns) into a single DataFrame called Ravdess_df.
+    
 **D. Label**
   - The 'Filename' column of Ravdess_df into separate columns using the '-' character as a delimiter. These columns are named 'Modality', 'Vocal_channel', 'Emotion', 'Emotional_intensity', 'Statement', 'Repetition', and 'Actor'.
   - The values in the new columns to integer and perform replacements using .replace() to map numeric codes to their corresponding labels for 'Emotion', 'Modality', 'Vocal_channel', 'Emotional_intensity', 'Statement', and 'Repetition'.
   - Finally, the label dataset for Audio files was created and named Ravdess_df
+    
 **E. Data Visualizations**
   - I created a different visualization using Matplotlib  and Plotly to Analyze the data
   - First, I created a bar plot showing the distribution of emotions in the dataset using Matplotlib and Seaborn.
   - I created a pie chart displaying the distribution of emotions using Plotly Express.
   - I also created pie charts for 'Emotional_intensity' and 'Statement' in a similar manner using Plotly Express.
+    
 **F. Audio Visualizations**
   - Two functions, create_waveplot, and create_spectrogram, are defined to create waveplots and spectrograms for audio files.
   - It loads an audio file with the emotion such as 01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, and 08 = surprised. and displays its waveplot and spectrogram.
