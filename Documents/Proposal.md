@@ -69,7 +69,9 @@ The significance of emotions in human life cannot be overstated, as they play a 
   - I also created pie charts for 'Emotional_intensity' and 'Statement' in a similar manner using Plotly Express.
 
 ![Bar](Bar.png)
+this bar chart shows that the data was distributed equally among all emotions except the Neutral Emotion in later stages I will perform a Data Augmentation to balance the Data
 ![pie](pie.png)
+this pie chart is one more visual representation of how data was distributed among the emotions 
 
 **F. Audio Visualizations**
   - Two functions, create_waveplot, and create_spectrogram, are defined to create waveplots and spectrograms for audio files.
@@ -77,3 +79,13 @@ The significance of emotions in human life cannot be overstated, as they play a 
   - Finally, it plays the audio files using the Audio function.
 
 ![606](606.png)
+in the Above image, we can observe the original waveform and spectrogram of the audio for one emotion 
+
+**G. Feature Extraction**
+  - before going into the machine learning modeling I need to extract the required features from the Audio file and convert them into spectrogram.
+  - unlike image and tabular files Audio data is unique in a way and it is not easy to represent the audio data in a tabular format
+  - The audio is kinda more complex it was a mix of different wave frequencies.
+  - for feature extraction, I process audio data from a DataFrame (Ravdess_df) by iterating through the file paths, loading the audio, and computing Mel-frequency cepstral coefficients (MFCCs) using the Librosa library.
+  - and then I convert a variable of Mel-frequency cepstral coefficients (MFCCs)  to a decibel scale
+![MFCC](MFCC.png)
+![db_MFCC](db_MFCC.png)
