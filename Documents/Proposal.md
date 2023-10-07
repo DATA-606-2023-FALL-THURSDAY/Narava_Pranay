@@ -68,7 +68,7 @@ The significance of emotions in human life cannot be overstated, as they play a 
   - I created a pie chart displaying the distribution of emotions using Plotly Express.
   - I also created pie charts for 'Emotional_intensity' and 'Statement' in a similar manner using Plotly Express.
 
-![bar, pie](bar.png, pie.png)
+![bar](bar.png)![pie](pie.png)![pie2](pie2.png)![pie3](pie3.png)
 
 **F. Audio Visualizations**
   - Two functions, create_waveplot, and create_spectrogram, are defined to create waveplots and spectrograms for audio files.
