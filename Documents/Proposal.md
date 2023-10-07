@@ -72,3 +72,5 @@ The significance of emotions in human life cannot be overstated, as they play a 
   - Two functions, create_waveplot, and create_spectrogram, are defined to create waveplots and spectrograms for audio files.
   - It loads an audio file with the emotion such as 01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, and 08 = surprised. and displays its waveplot and spectrogram.
   - Finally, it plays the audio files using the Audio function.
+
+![606](606.png)
