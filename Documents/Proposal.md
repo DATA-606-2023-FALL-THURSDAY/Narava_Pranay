@@ -69,7 +69,8 @@ The significance of emotions in human life cannot be overstated, as they play a 
   - I also created pie charts for 'Emotional_intensity' and 'Statement' in a similar manner using Plotly Express.
 
 ![Bar](Bar.png)   
-this bar chart shows that the data was distributed equally among all emotions except the Neutral Emotion in later stages I will perform a Data Augmentation to balance the Data
+this bar chart shows that the data was distributed equally among all emotions except the Neutral Emotion in later stages I will perform a Data Augmentation to balance the Data   
+
 ![pie](pie.png)   
 this pie chart is one more visual representation of how data was distributed among the emotions 
 
