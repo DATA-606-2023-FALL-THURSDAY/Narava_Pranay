@@ -82,11 +82,14 @@ this pie chart is one more visual representation of how data was distributed amo
 ![606](606.png)   
 in the Above image, we can observe the original waveform and spectrogram of the audio for one emotion 
 
-**G. Feature Extraction**
-  - before going into the machine learning modeling I need to extract the required features from the Audio file and convert them into spectrogram.
+## 4. Feature Extraction
+  - Before going into the machine learning modeling We need to extract the required features from the Audio file and convert them into spectrogram.
   - unlike image and tabular files Audio data is unique in a way and it is not easy to represent the audio data in a tabular format
-  - The audio is kinda more complex it was a mix of different wave frequencies.
-  - for feature extraction, I process audio data from a DataFrame (Ravdess_df) by iterating through the file paths, loading the audio, and computing Mel-frequency cepstral coefficients (MFCCs) using the Librosa library.
+  - The audio is kind of more complex it was a mix of different wave frequencies.
+  - for feature extraction, I process audio data from a DataFrame (Ravdess_df) by iterating through the file paths, loading the audio, and computing Features using the Librosa library.
   - and then I convert a variable of Mel-frequency cepstral coefficients (MFCCs)  to a decibel scale   
 ![MFCC](MFCC.png)
 ![db_MFCC](db_MFCC.png)
+
+**A. Mel_Spectrogram**
+
