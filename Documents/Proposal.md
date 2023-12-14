@@ -83,7 +83,7 @@ this pie chart is one more visual representation of how data was distributed amo
 in the Above image, we can observe the original waveform and spectrogram of the audio for one emotion 
 
 ## 5. Feature Extraction
-- Before going into the machine learning modeling We need to extract the required features from the Audio file and convert them into spectrogram
+Before going into the machine learning modeling We need to extract the required features from the Audio file and convert them into a spectrogram
 
 **why feature extraction is important in audio processing?**
   - unlike image and tabular files Audio data is unique in a way and it is not easy to represent the audio data in a tabular format
@@ -104,3 +104,19 @@ in the Above image, we can observe the original waveform and spectrogram of the 
 ![MFCC](MFCC.png)
 ![db_MFCC](db_MFCC.png)
 
+## 6. Machine learning Modeling
+**CNN(Convolutional Neural Network)**
+- Overview:
+    Convolutional Neural Networks (CNNs) are a class of deep neural networks designed for tasks involving images, such as image classification, object detection, and segmentation. CNNs are particularly effective in capturing spatial hierarchies and patterns in data. In addition to image data, CNNs can also be adapted for processing audio data. While the basic architecture remains similar, there are specific considerations for handling audio signals.
+
+- Architecture:
+    A typical CNN architecture consists of several layers that work together to process input data, learn features, and make predictions. The basic layers include:
+Input Layer
+1D Convolutional Layer
+Pooling Layers
+Leaky Relu
+Max pooling
+Drop out Layer
+Flatten Layer
+Dense Layer
+Output Layer
