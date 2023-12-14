@@ -133,16 +133,21 @@ Before going into the machine learning modeling We need to extract the required 
     - Output Layer
 
 ## 7. Result
+
 **Accuracy Graph**
+
 ![Accuracy](Accuracy.png)
 
 **Loss Accuracy Graph**
+
 ![loss](loss.png)
 
 **Confusion Matrix**
+
 ![Confusion_matrix](Confusion_matrix.png)
 
 **Classification Report**
+
 ![Classification_Report](Classification_Report.png)
 
 1. Overview:
