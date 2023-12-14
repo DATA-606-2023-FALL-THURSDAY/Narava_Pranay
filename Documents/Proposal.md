@@ -82,14 +82,25 @@ this pie chart is one more visual representation of how data was distributed amo
 ![606](606.png)   
 in the Above image, we can observe the original waveform and spectrogram of the audio for one emotion 
 
-## 4. Feature Extraction
-  - Before going into the machine learning modeling We need to extract the required features from the Audio file and convert them into spectrogram.
+## 5. Feature Extraction
+- Before going into the machine learning modeling We need to extract the required features from the Audio file and convert them into spectrogram
+
+**why feature extraction is important in audio processing?**
   - unlike image and tabular files Audio data is unique in a way and it is not easy to represent the audio data in a tabular format
   - The audio is kind of more complex it was a mix of different wave frequencies.
+  - Feature extraction plays a pivotal role in preparing audio data for machine learning models. In the realm of audio signal processing, Mel Spectrogram and Mel Frequency Cepstral Coefficients (MFCC) are popular techniques for representing the distinctive features of audio signals.
   - for feature extraction, I process audio data from a DataFrame (Ravdess_df) by iterating through the file paths, loading the audio, and computing Features using the Librosa library.
   - and then I convert a variable of Mel-frequency cepstral coefficients (MFCCs)  to a decibel scale   
-![MFCC](MFCC.png)
-![db_MFCC](db_MFCC.png)
 
 **A. Mel_Spectrogram**
+    - A Mel Spectrogram is a visual representation of the spectrum of frequencies in an audio signal over time. It is derived from the traditional spectrogram but with frequency bins transformed to the Mel scale.
+    ![Mel](Mel.png)
+    ![db_Mel](db_Mel.png)
+
+**B. Mel-frequency cepstral coefficients**
+    - MFCCs are coefficients representing the short-term power spectrum of an audio signal. They are widely used in speech and audio processing due to their effectiveness in capturing essential characteristics.
+    - MFCCs are derived from the mel-spectrogram. They capture the temporal variation in the spectral content of an audio signal. MFCCs are coefficients obtained from the discrete cosine transform (DCT) of the log mel-spectrogram.
+
+![MFCC](MFCC.png)
+![db_MFCC](db_MFCC.png)
 
