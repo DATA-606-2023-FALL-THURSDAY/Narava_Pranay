@@ -111,12 +111,13 @@ Before going into the machine learning modeling We need to extract the required 
 
 - Architecture:
     A typical CNN architecture consists of several layers that work together to process input data, learn features, and make predictions. The basic layers include:
-Input Layer
-1D Convolutional Layer
-Pooling Layers
-Leaky Relu
-Max pooling
-Drop out Layer
-Flatten Layer
-Dense Layer
-Output Layer
+  
+Input Layer    
+1D Convolutional Layer    
+Pooling Layers    
+Leaky Relu    
+Max pooling    
+Drop out Layer        
+Flatten Layer    
+Dense Layer        
+Output Layer    
