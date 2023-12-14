@@ -90,7 +90,17 @@ Before going into the machine learning modeling We need to extract the required 
   - The audio is kind of more complex it was a mix of different wave frequencies.
   - Feature extraction plays a pivotal role in preparing audio data for machine learning models. In the realm of audio signal processing, Mel Spectrogram and Mel Frequency Cepstral Coefficients (MFCC) are popular techniques for representing the distinctive features of audio signals.
   - for feature extraction, I process audio data from a DataFrame (Ravdess_df) by iterating through the file paths, loading the audio, and computing Features using the Librosa library.
-  - and then I convert a variable of Mel-frequency cepstral coefficients (MFCCs)  to a decibel scale   
+  - and then I convert a variable of Mel-frequency cepstral coefficients (MFCCs)  to a decibel scale
+
+**Benefits of Feature extraction** 
+    - Dimensionality Reduction
+    - Computational Efficiency
+    - Noise Reduction
+    - Pattern Recognition
+    - Invariance
+    - Improved Model Generalization
+    - Interpretability
+    - Task-Specific Information
 
 **A. Mel_Spectrogram**
     - A Mel Spectrogram is a visual representation of the spectrum of frequencies in an audio signal over time. It is derived from the traditional spectrogram but with frequency bins transformed to the Mel scale.
@@ -112,12 +122,49 @@ Before going into the machine learning modeling We need to extract the required 
 - Architecture:
     A typical CNN architecture consists of several layers that work together to process input data, learn features, and make predictions. The basic layers include:
   
-Input Layer    
-1D Convolutional Layer    
-Pooling Layers    
-Leaky Relu    
-Max pooling    
-Drop out Layer        
-Flatten Layer    
-Dense Layer        
-Output Layer    
+    - Input Layer    
+    - 1D Convolutional Layer    
+    - Pooling Layers    
+    - Leaky Relu    
+    - Max pooling    
+    - Drop out Layer        
+    - Flatten Layer    
+    - Dense Layer        
+    - Output Layer
+
+## 7. Result
+**Accuracy Graph**
+![Accuracy](Accuracy.png)
+
+**Loss Accuracy Graph**
+![loss](loss.png)
+
+**Confusion Matrix**
+![Confusion_matrix](Confusion_matrix.png)
+
+**Classification Report**
+![Classification_Report](Classification_Report.png)
+
+1. Overview:
+The presented CNN model for Speech emotion recognition demonstrates a commendable effort in capturing emotional cues from audio data. However, the model faces challenges in achieving higher accuracy, likely due to limitations in computational resources.
+
+2. Model Performance:
+The CNN model, trained over 52 epochs, exhibits a progressive improvement in both training and validation accuracy. However, the achieved overall accuracy of 61% suggests room for enhancement. The confusion matrix and classification report reveal varying performance across different emotion classes, with notable strengths in predicting calm and happy emotions, and challenges in discerning neutral and sad emotions.
+
+3. Challenges and Limitations:
+One significant constraint affecting the model's performance is the lack of dedicated GPU resources. The extended training time and limited parallel processing capabilities on a CPU-only setup hinder the model's ability to converge to a more optimal solution. Given the resource constraints, achieving higher accuracy becomes a challenging task.
+
+4. Data Size and RAM Limitations:
+The model has been trained on a dataset comprising 1500 audio files. Attempting to expand the dataset beyond 1800 audio files is hampered by the shortage of RAM. The limitation in memory capacity prevents the model from efficiently processing a larger dataset, impacting the generalization ability and potentially hindering its performance on new, unseen data.
+
+5. Recommendations:
+Considering the resource limitations, several recommendations can be made to improve the model's performance:
+
+    - GPU Acceleration: Investing in a GPU or utilizing cloud-based GPU resources can significantly accelerate training times and enable the model to explore a broader solution space, potentially leading to improved accuracy.
+    - Memory Management: Implementing memory-efficient techniques, such as data generators and batch processing, can help mitigate RAM limitations when working with larger datasets.
+    - Data Augmentation: Augmenting the existing dataset through techniques like pitch shifting, time stretching, and noise injection can artificially increase the diversity of the training set, potentially enhancing the model's ability to generalize.
+
+6. Conclusion:
+In conclusion, the presented CNN model shows promise in audio emotion recognition, but achieving higher accuracy is constrained by the lack of GPU resources and RAM limitations. To overcome these challenges, investments in hardware upgrades or cloud computing solutions are recommended. Additionally, optimizing data handling processes and implementing data augmentation strategies can contribute to more robust model training.
+
+
