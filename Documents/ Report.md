@@ -2,6 +2,7 @@
 ## 1. Title and Author
 - Author: Pranay manikanta Narava
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
+- semester: Final semester
 - GitHub: [https://github.com/NPranaya7?tab=repositories](https://github.com/DATA-606-2023-FALL-THURSDAY/Narava_Pranay) 
 - LinkedIn: https://www.linkedin.com/in/pranayamanikanta07/
 - Code: https://github.com/DATA-606-2023-FALL-THURSDAY/Narava_Pranay/blob/main/Source_Code/606_Data_Capstone_Project.ipynb
