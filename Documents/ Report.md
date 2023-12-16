@@ -172,4 +172,11 @@ Considering the resource limitations, several recommendations can be made to imp
 6. Conclusion:
 In conclusion, the presented CNN model shows promise in audio emotion recognition, but achieving higher accuracy is constrained by the lack of GPU resources and RAM limitations. To overcome these challenges, investments in hardware upgrades or cloud computing solutions are recommended. Additionally, optimizing data handling processes and implementing data augmentation strategies can contribute to more robust model training.
 
+## 8. References
+https://www.analyticsvidhya.com/blog/2021/05/convolutional-neural-networks-cnn/
+https://towardsdatascience.com/cnns-for-audio-classification-6244954665ab 
+https://www.atmosera.com/blog/audio-classification-with-cnns/   
+https://www.tensorflow.org/tutorials/images/cnn
+https://towardsdatascience.com/recurrent-neural-nets-for-audio-classification-81cb62327990
+https://towardsdatascience.com/audio-deep-learning-made-simple-sound-classification-step-by-step-cebc936bbe5
 
