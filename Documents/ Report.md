@@ -179,4 +179,4 @@ https://www.atmosera.com/blog/audio-classification-with-cnns/
 https://www.tensorflow.org/tutorials/images/cnn
 https://towardsdatascience.com/recurrent-neural-nets-for-audio-classification-81cb62327990
 https://towardsdatascience.com/audio-deep-learning-made-simple-sound-classification-step-by-step-cebc936bbe5
-
+https://zenodo.org/records/1188976
