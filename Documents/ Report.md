@@ -8,8 +8,7 @@
 - Code: https://github.com/DATA-606-2023-FALL-THURSDAY/Narava_Pranay/blob/main/Source_Code/606_Data_Capstone_Project.ipynb
 - Powerpoint: https://github.com/DATA-606-2023-FALL-THURSDAY/Narava_Pranay/tree/main/Documents/Powerpoint
 - Video presentation Link: https://youtu.be/d1HULtaRLOc
-- Link to your PowerPoint presentation file
-- Link to your  YouTube video 
+
     
 ## 2. Background
 
